@@ -1,7 +1,7 @@
-import React from 'react'
+import React from 'react';
 
 export default function Footer() {
     return (
-        <div>Footer</div>
-    )
+        <div className='fixed bottom-0 w-full bg-gray-200 p-2 text-center'>Footer</div>
+    );
 }
