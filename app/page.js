@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <div>
       <Headers />
-      <body>i am aom </body>
+      <div></div>
       <Footer />
     </div>
   );
