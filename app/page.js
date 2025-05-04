@@ -1,12 +1,20 @@
 import React from "react";
 import Headers from "@/Components/Header";
 import Footer from "@/Components/Footer";
+import { Doto } from "next/font/google";
+
+const doto = Doto({
+  weight: "900",
+  subsets: ["latin"],
+});
 
 export default function Home() {
   return (
     <div>
-      <Headers />
-      <div></div>
+      <div className={`${doto.className} `}>
+        <Headers />
+      </div>
+      <div className=""></div>
       <Footer />
     </div>
   );
