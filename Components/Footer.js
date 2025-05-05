@@ -8,7 +8,7 @@ const doto = Doto({
 
 export default function Footer() {
   return (
-    <div className=" bottom-0 w-full flex flex-row justify-between py-4 px-5 bg-gray-200 ">
+    <div className=" bottom-0 w-full flex flex-row justify-between py-4 px-5  ">
       <div>H1</div>
       <div>H2</div>
       <div className={`${doto.className} `}>H3</div>
