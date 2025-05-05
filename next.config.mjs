@@ -1,4 +1,9 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
+const nextConfig = {
+  allowedDevOrigins: ["http://192.168.1.63"],
+  experimental: {
+    // ...existing experimental options...
+  },
+};
 
 export default nextConfig;
