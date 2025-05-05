@@ -14,7 +14,8 @@ export default function Home() {
       <div className={`${doto.className} `}>
         <Headers />
       </div>
-      <div className=""></div>
+      <body></body>
+      <div></div>
       <Footer />
     </div>
   );
